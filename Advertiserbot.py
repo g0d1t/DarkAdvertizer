@@ -401,9 +401,9 @@ class Advertising(Client):                                                      
         super().__init__(                                                                                      #-|
             ":memory:",                                                                                        #-|
             plugins=dict(root=r'plugins'),                                                                     #-|
-            api_id=API_ID,                                                                                     #-|
-            api_hash=API_HASH,                                                                                 #-|
-            bot_token=BOT_TOKEN,                                                                               #-|
+            api_id=13291546,                                                                                     #-|
+            api_hash="91b08c777c23cfffd7597d472b41bcb0",                                                                                 #-|
+            bot_token="6447267038:AAHbWewAXotZUAA2wQC_gRklZopLOm4FTK8",                                                                               #-|
             sleep_threshold=60,                                                                                #-|
             parse_mode=ParseMode.MARKDOWN,                                                                     #-|
             workers=80,                                                                                        #-|
