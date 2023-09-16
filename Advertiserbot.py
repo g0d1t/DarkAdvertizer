@@ -388,22 +388,7 @@ def StartProxy():
 #----------------------------------------
 
 #----------------------------------------------------------------------------------------------------------------| Inheriting from Client(pyrogram)
-class Advertising(Client):                                                                                     #-|
-    def __init__(self):                                                                                        #-|
-        #---------------------------------------------------| Threading Functions in SCADULE                   #-|
-        Thread=threading.Thread(target=StartProxy)   #-|                                                  #-|
-        Thread.start()                                    #-|                                                  #-|
-        Thread=threading.Thread(target=StartDeleting) #-|                                                  #-|
-        Thread.start()                                    #-|                                                  #-|  
-        Thread=threading.Thread(target=StartNatural,args=[DataBase]) #-|                                       #-|
-        Thread.start()                                    #-|                                                  #-|
-        #---------------------------------------------------|                                                  #-|
-        super().__init__(                                                                                      #-|
-            ":memory:",                                                                                        #-|
-            plugins=dict(root=r'plugins'),                                                                     #-|
-            api_id=13291546,                                                                                     #-|
-            api_hash="91b08c777c23cfffd7597d472b41bcb0",                                                                                 #-|
-            bot_token="6447267038:AAHbWewAXotZUAA2wQC_gRklZopLOm4FTK8",                                                                               #-|
+class Advertising(Client):                                                                                              #-|
             sleep_threshold=60,                                                                                #-|
             parse_mode=ParseMode.MARKDOWN,                                                                     #-|
             workers=80,                                                                                        #-|
